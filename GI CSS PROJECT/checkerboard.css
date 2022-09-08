@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav css */
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: navy;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.hover:hover {
+    opacity: 50%;
+}
+
+/* nav css end*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.square {
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.black {
+    background-color: black;
+}
